@@ -59,7 +59,8 @@ An example follows.
 
 ## High-Level Description
 
-The pet register database contains information about cats and dogs available for adoption at ELTE Animal Shelter. It includes data on each pet's name, color, and breed.
+The pet register database contains information about cats and dogs available for adoption at ELTE Animal Shelter.
+It includes data on each pet's name, type, and weight.
 
 This dataset was exported from the pet register database for research purposes
 by Matthew Ludas on 2023-10-27, to develop
