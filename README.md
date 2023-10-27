@@ -85,3 +85,14 @@ Columns:
 | Name        | string        | VARCHAR(50)  | Name of the pet               |
 | Type        | categorical   | VARCHAR(10)  | Type of pet (Cat or Dog)      |
 | Weight      | float         | DOUBLE       | Weight of the pet in kg       |
+
+
+#### sample (first five rows)
+
+| PetID | Name      | Type  | Weight |
+|-------|-----------|-------|--------|
+| 1     | Fluffy    | Cat   | 4.5    |
+| 2     | Max       | Dog   | 12.2   |
+| 3     | Whiskers  | Cat   | 5.1    |
+| 4     | Buddy     | Dog   | 8.7    |
+| 5     | Luna      | Cat   | 3.4    |
