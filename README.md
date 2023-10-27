@@ -32,7 +32,7 @@ An example follows.
 ## Dictionary Version and Change Log
 
 - **Last Version**: 1.1
-- **Last Updated**: October 27, 2023
+- **Last Updated**: November 15, 2023
 - **Change Log**:
 
 | Date       | Version | Description                 | Author        |
@@ -42,8 +42,8 @@ An example follows.
 
 ## Data Version and Change Log
 
-- **Last Version**: 1.1
-- **Last Updated**: October 27, 2023
+- **Last Version**: 1.2
+- **Last Updated**: October 31, 2023
 - **Change Log**:
 
 | Date       | Version | Description                      | Author        |
@@ -63,7 +63,7 @@ The pet register database contains information about cats and dogs available for
 
 This dataset was exported from the pet register database for research purposes
 by Matthew Ludas on 2023-10-27, to develop
-a machine learning model that recommends pets to prospective owners.
+a machine learning model to distinguish cats from dogs.
 
 ## Tables
 
@@ -74,7 +74,7 @@ repository
 
 - **Description**: This table stores information about cats and dogs available for adoption.
 - **Rows** (total: 252) correspond to individual pets, registered at the ELTE Animal Shelter on 2023-10-27.
-- **Columns** (total: 5) correspond to different observables of the individual pets:
+- **Columns** (total: 4) correspond to different observables of the individual pets:
 - **ID columns** (total: 1) are: PetID
 
 Columns:
@@ -83,5 +83,4 @@ Columns:
 | PetID       | integer       | INT          | Unique identifier for the pet |
 | Name        | string        | VARCHAR(50)  | Name of the pet               |
 | Type        | categorical   | VARCHAR(10)  | Type of pet (Cat or Dog)      |
-| Color       | categorical   | VARCHAR(20)  | Color of the pet, according to Hungarian Economic Ministry pet classification 2021 |
-| Breed       | categorical   | VARCHAR(50)  | Breed of the pet, according to Hungarian Economic Ministry pet classification 2021 |
+| Weight      | float         | DOUBLE       | Weight of the pet in kg       |
