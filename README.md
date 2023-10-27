@@ -59,7 +59,7 @@ An example follows.
 
 ## High-Level Description
 
-The pet register database contains information about cats and dogs available for adoption at ELTE Animal Shelter.
+The pet register database contains information about cats and dogs at the ELTE Animal Shelter.
 It includes data on each pet's name, type, and weight.
 
 This dataset was exported from the pet register database for research purposes
@@ -73,7 +73,7 @@ repository
 
 ### Table: `pets.csv`
 
-- **Description**: This table stores information about cats and dogs available for adoption.
+- **Description**: This table stores information about cats and dogs at the ELTE Animal Shelter.
 - **Rows** (total: 252) correspond to individual pets, registered at the ELTE Animal Shelter on 2023-10-27.
 - **Columns** (total: 4) correspond to different observables of the individual pets:
 - **ID columns** (total: 1) are: PetID
